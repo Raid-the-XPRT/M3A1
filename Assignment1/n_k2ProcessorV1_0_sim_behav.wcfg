@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="n_k2ProcessorV1_0_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="n_k2ProcessorV1_0_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="445000001fs"></ZoomEndTime>
+      <Cursor1Time time="130000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="100"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/pc">
+      <obj_property name="ElementShortName">pc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/counter1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/j">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/counter1/load_en">
+      <obj_property name="ElementShortName">load_en</obj_property>
+      <obj_property name="ObjectShortName">load_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/c">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/carryIn">
+      <obj_property name="ElementShortName">carryIn</obj_property>
+      <obj_property name="ObjectShortName">carryIn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/carryOut">
+      <obj_property name="ElementShortName">carryOut</obj_property>
+      <obj_property name="ObjectShortName">carryOut</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/instruction">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/load">
+      <obj_property name="ElementShortName">load[3:0]</obj_property>
+      <obj_property name="ObjectShortName">load[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/load_en">
+      <obj_property name="ElementShortName">load_en</obj_property>
+      <obj_property name="ObjectShortName">load_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/counter">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/pc1/n">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/imm">
+      <obj_property name="ElementShortName">imm[2:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/ra_en">
+      <obj_property name="ElementShortName">ra_en</obj_property>
+      <obj_property name="ObjectShortName">ra_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/rb_en">
+      <obj_property name="ElementShortName">rb_en</obj_property>
+      <obj_property name="ObjectShortName">rb_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/ro_en">
+      <obj_property name="ElementShortName">ro_en</obj_property>
+      <obj_property name="ObjectShortName">ro_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/ra">
+      <obj_property name="ElementShortName">ra[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ra[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/rb">
+      <obj_property name="ElementShortName">rb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rb[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/ro">
+      <obj_property name="ElementShortName">ro[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ro[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/s">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/muxRes">
+      <obj_property name="ElementShortName">muxRes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">muxRes[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu_res">
+      <obj_property name="ElementShortName">alu_res[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/pc">
+      <obj_property name="ElementShortName">pc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/a">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/b">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/add_substract">
+      <obj_property name="ElementShortName">add_substract</obj_property>
+      <obj_property name="ObjectShortName">add_substract</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/cout">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/res">
+      <obj_property name="ElementShortName">res[3:0]</obj_property>
+      <obj_property name="ObjectShortName">res[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/n_k2ProcessorV1_0_sim/k2p1/alu1/tempRes">
+      <obj_property name="ElementShortName">tempRes[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRes[4:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+Running: xsim.dir/n_adderSubstractor_behav/xsimk -simmode gui -wdb n_adderSubstractor_behav.wdb -simrunnum 0 -socket 59525
+Design successfully loaded
+Design Loading Memory Usage: 32984 KB (Peak: 33600 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 114720 KB (Peak: 172252 KB)
+Simulation CPU Usage: 60 ms

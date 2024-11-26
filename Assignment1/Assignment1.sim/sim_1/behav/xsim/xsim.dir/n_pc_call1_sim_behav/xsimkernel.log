@@ -1,0 +1,7 @@
+Running: xsim.dir/n_pc_call1_sim_behav/xsimk -simmode gui -wdb n_pc_call1_sim_behav.wdb -simrunnum 0 -socket 36879
+Design successfully loaded
+Design Loading Memory Usage: 32988 KB (Peak: 33604 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 114984 KB (Peak: 172256 KB)
+Simulation CPU Usage: 30 ms
